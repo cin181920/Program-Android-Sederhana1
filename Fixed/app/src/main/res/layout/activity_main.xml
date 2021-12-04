@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="355dp"
+        android:layout_height="217dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206"
+        app:srcCompat="@drawable/wrcomic_removebg_preview" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="284dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#1E98D7"
+        android:ems="10"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="username"
+        android:inputType="text"
+        android:textColor="#1E98D7"
+        android:textColorHint="#1E98D7"
+        android:textColorLink="#1E98D7"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="283dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#1E98D7"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColor="#1E98D7"
+        android:textColorHint="#1E98D7"
+        android:textColorLink="#1E98D7"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/masuk"
+        android:layout_width="249dp"
+        android:layout_height="49dp"
+        android:background="#1E98D7"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="masuk"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
